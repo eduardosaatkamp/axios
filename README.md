@@ -3,8 +3,8 @@ Este repositório consiste em um tutorial que demonstra o uso do Axios para inte
 
 <h1>Estrutura do projeto</h1>
 Este projeto utiliza React para criar uma aplicação web que consome a API fornecida pelo serviço "api" localizado em "./services/api.js". A aplicação faz uma requisição GET para obter informações do usuário e exibe seu nome de usuário e biografia. A requisição é feita utilizando o hook useEffect para realizar chamadas à API e o hook useState para armazenar o estado do usuário.
-- src/App.js: é o arquivo principal da aplicação, que contém o componente principal App responsável por renderizar as informações do usuário.
-- src/services/api.js: Este arquivo define uma instância do Axios para fazer requisições HTTP à API externa.
-- public/index.html: O arquivo HTML base da aplicação.
-- package.json: Arquivo de configuração do projeto, contendo as dependências, scripts e informações sobre o projeto.
+- src/App.js: é o arquivo principal da aplicação, que contém o componente principal App responsável por renderizar as informações do usuário.<br>
+- src/services/api.js: arquivo que define uma instância do Axios para fazer requisições HTTP à API externa.<br>
+- public/index.html: arquivo HTML base da aplicação.<br>
+- package.json: arquivo de configuração do projeto, contendo as dependências, scripts e informações sobre o projeto.
 
